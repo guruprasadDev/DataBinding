@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.guruthedev.databinding.databinding.ActivityBindingAdapterMethodBinding
 
-class BindingAdapterMethod : AppCompatActivity() {
+class DataBindingMethod : AppCompatActivity() {
     private lateinit var binding: ActivityBindingAdapterMethodBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

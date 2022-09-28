@@ -12,19 +12,4 @@ fun ImageView.loadImageFromUrl(profilePhoto:String,title:String){
     this.load(profilePhoto)
     Log.d("title","title")
 }
-@BindingAdapter("setMyViewVisibility")
-fun View.setMyViewVisibility(points: Int){
-    if (points > 1){
-        this.visibility = View.INVISIBLE
-    }
-    when(this){
-        is ImageView ->{
-
-        }
-        is TextView ->{
-
-        }
-    }
-}
-
 
