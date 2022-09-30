@@ -14,6 +14,6 @@ class DataBindingExample : AppCompatActivity() {
         binding.employee=getEmployee()
     }
     private fun getEmployee(): Employee{
-        return Employee("202","Guru Prasad Reddy","guruprasad@gmail.com")
+        return Employee(202,"Guru Prasad Reddy","guruprasad@gmail.com")
     }
 }
