@@ -1,7 +1,7 @@
 package com.guruthedev.databinding
 
 class Employee(
-    var id: String,
+    var id: Int,
     var name: String,
     var email: String
 )
